@@ -5,7 +5,7 @@ inputFolder=input
 postsData=$inputFolder/posts
 
 # where data gets stored for generated text content
-outputFolder=output/
+outputFolder=docs
 
 # a handle for the currently used file
 file=input/posts/07_03_2021/Hello_World.txt
@@ -17,14 +17,6 @@ templateFile=$input/index.template
 echo "Using $inputFolder for input-data"
 echo "Using $outputFolder for file-generation"
 echo ""
-
-# modify the templates contents with blog posts articles
-#  generated_output=`sed -e "/@@blog_posts@@/{r $file" -e "d}" input/index.template | cat`
-#  echo $generated_output
-
-
-# write the modified contents into the resulting file
-# echo $generated_output > $outputFolder/index.html
 
 echo "Collecting posts ..."
 echo ""
