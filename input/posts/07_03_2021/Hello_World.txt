@@ -1,8 +1,8 @@
 <div>
 
-<h3>The second post!</h3>
+<h3>First!</h3>
 
-This is my first post using my own site generator!
+This is the first post using my own static site generator.
 I hope you like what you see - its completely written in bash, KISS!
 
 See ya people!
