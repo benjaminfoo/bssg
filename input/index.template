@@ -4,11 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Dev Blog</title>
+  <title>@@title@@</title>
   <meta name="description" content="B to the F">
   <meta name="author" content="Be to the F">
-
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
   
   <style>
   
@@ -81,8 +79,8 @@
   
 	
 	<div>
-		<h1>Dev.Blog</h1>
-		<h5>Just another developer blog</h5>
+		<h1>@@title@@</h1>
+		<h5>@@subtitle@@</h5>
 	</div>
 
 	
@@ -110,7 +108,7 @@
 
 
 	<footer class="page-footer">
-		&copy; 2015
+		&copy; @@year@@
 	</footer>
 	
   

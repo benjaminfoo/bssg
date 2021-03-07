@@ -8,7 +8,7 @@ postsData=$inputFolder/posts
 outputFolder=docs
 
 # a handle for the currently used file
-file=input/posts/07_03_2021/Hello_World.txt
+file=
 
 # the file which is used as a template to generate a valid html file
 templateFile=$input/index.template
@@ -50,9 +50,19 @@ do
 
 done
 
+# replace property meta-data
+while read property; do
+	# split key / value
+	# key = leftSideAssignment
+	# value = rightSideAssignment
+	# seperator = '=' (equals sign)
+	IFS== read -r leftSideAssignment rightSideAssignment <<< $property
+	generated_content=${generated_content//@@$leftSideAssignment@@/$rightSideAssignment}
+done < $inputFolder/page.properties
+
 # replace the previously generated content with the content from the template
 # and write it to the corresponding output folder & file
-echo "${generated_content/@@blog_posts@@/$read_content}" > $outputFolder/index.html
+echo "${generated_content//@@blog_posts@@/$read_content}" > $outputFolder/index.html
 
 
 
