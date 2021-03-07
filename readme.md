@@ -2,8 +2,7 @@
 This shell script reads a regular text file (template, input-file) which contains meta-data (declared via @@).  
 This meta-data gets replaced by file contents from the **input-folder** (input/posts/...).  
 The result is a new file which gets stored under **/docs**.  
-
-\ 
+  
 ## How it works
 *read template -> read blog posts -> replace meta-data in template with content from blog posts -> write the result to the output directory.*
 
