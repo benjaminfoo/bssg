@@ -1,0 +1,1 @@
+# Bash static site generator

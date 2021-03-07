@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Dev Blog</title>
+  <meta name="description" content="B to the F">
+  <meta name="author" content="Be to the F">
+
+  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+  
+  <style>
+  
+	body {
+		font-family: Arial;
+
+		margin: 5%;
+		margin-top: 3%;
+		padding: 0;
+	}
+
+	h1, h2, h3, h4, h5 {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: black;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.blog_article {
+		background-color: #0000000F;
+		margin-bottom: 10pt;
+		padding: 15pt;
+	}
+	
+	.blog_article_text {
+		font-size: 10pt;
+		padding-top: 15pt;
+		padding-bottom: 15pt;
+		line-height: 1.5;
+	}
+	
+		
+	.blog_article_footer {
+		font-size: 8pt;
+	}
+	
+	.menu {
+		padding-top: 2pt;
+		padding-bottom: 2pt;
+		font-size: 10pt;
+	}
+  
+	.page-footer {
+		bottom: 0;
+		position: fixed;
+		width: 100%;
+		margin-right: -5%;
+		margin-left: -5%;
+		margin-bottom: 5pt;
+		font-size: 8pt;
+		text-align: center;
+	}
+
+	.blog_article_subheader {
+		font-size: 8pt;
+	}
+  
+  </style>
+
+</head>
+
+<body>
+  
+	
+	<div>
+		<h1>Dev.Blog</h1>
+		<h5>Just another developer blog</h5>
+	</div>
+
+	
+	<br>
+
+	
+	<!--
+
+	<nav class="menu">
+		<a href="#">Start</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	
+	-->
+
+	
+	@@blog_posts@@
+	
+	
+	<br>
+	
+
+
+
+
+	<footer class="page-footer">
+		&copy; 2015
+	</footer>
+	
+  
+</body>
+</html>

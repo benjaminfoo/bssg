@@ -1,0 +1,8 @@
+<div>
+
+<h3>Writing a static site generator</h3>
+
+Static site generators are en vogue in the years of 2020 - 2021 - but did you know that you could easily write one yourself, using only linux bash-scripting and linux tools?
+Let me explain how this could be done in a couple of minutes.
+
+</div>

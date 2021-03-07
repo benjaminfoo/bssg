@@ -1,0 +1,10 @@
+<div>
+
+<h3>The technically first post.</h3>
+
+This is my first post using my own site generator!
+I hope you like what you see - its completely written in bash, KISS!
+
+See ya people!
+
+</div>
